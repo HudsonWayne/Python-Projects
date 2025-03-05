@@ -1,0 +1,14 @@
+2025-03-05 11:22:53,597 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2025-03-05 11:22:53,598 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\UncommonStudent\AppData\Roaming\Python\Python312\site-packages\instabot\bot\bot.py
+2025-03-05 11:22:53,598 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2025-03-05 11:22:54,409 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2025-03-05 11:22:55,217 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2025-03-05 11:22:56,104 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2025-03-05 11:22:56,853 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2025-03-05 11:23:02,139 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2025-03-05 11:23:02,139 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"You can log in with your linked Facebook account.","status":"fail","error_title":"Forgotten password for drabble_dee","buttons":[{"title":"Use Facebook","action":"login_with_facebook"},{"title":"Try Again","action":"dismiss"}],"is_cp_nonce_flow":false,"login_identifer_type":"username","login_user_input":"drabble_dee","qe_device_id":"95dec2a6-48c2-4f76-81ed-24f9e9dcc4e2","login_attempt_count":1,"login_source":"unknown","error_code":1,"invalid_credentials":true,"exception_name":"UserInvalidCredentials","error_type":"bad_password"}'
+2025-03-05 11:23:02,139 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2025-03-05 11:23:02,140 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: You can log in with your linked Facebook account.
+2025-03-05 11:23:02,140 - instabot version: 0.117.0 (api) - INFO - Error type: bad_password
+2025-03-05 11:23:02,141 - instabot version: 0.117.0 (api) - ERROR - Failed to login go to instagram and change your password
+2025-03-05 11:23:02,141 - instabot version: 0.117.0 (api) - INFO - Username or password is incorrect.
