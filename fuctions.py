@@ -1,5 +1,4 @@
-def greet(name):
-    print(f"Hello, {name}!")
-greet("Bobby")
-greet("Wayne")
-    
+def add(a,b):
+    return a + b
+result = add(2,3)
+print(result)
