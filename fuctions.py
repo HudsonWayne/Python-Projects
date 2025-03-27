@@ -1,4 +1,9 @@
-def add(a,b):
-    return a + b
-result = add(2,3)
-print(result)
+
+for even in range(1, 51):
+    if even % 5 == 0:
+        continue
+    print(even)
+
+
+
+
