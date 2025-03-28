@@ -1,9 +1,22 @@
 
-for even in range(1, 51):
-    if even % 5 == 0:
-        continue
-    print(even)
+def power(base, exponent):
+    return base ** exponent
+print (power(2, 3))
 
+
+
+def greet(name):
+    print(f"Hello, {name}")
+    
+greet("John")
+
+()
+
+    
+    
+    
+    
+    
 
 
 
