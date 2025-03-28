@@ -1,16 +1,10 @@
+def global_function():
+    print("This is a global function")
+global_function()
 
-def power(base, exponent):
-    return base ** exponent
-print (power(2, 3))
-
-
-
-def greet(name):
-    print(f"Hello, {name}")
-    
-greet("John")
-
-()
+def another_function():
+    global_function()
+another_function()
 
     
     
