@@ -7,3 +7,11 @@ import pyjokes
 def sptext():
     recognizer= sr.Recognizer()
     with sr.Microphone() as source:
+        print("Listening...")
+        recognizer.adjust_for_ambient_noise(source)
+        audio = recognizer.listen(source)
+        
+        try:
+            
+        except Execution as e:
+            raise e
