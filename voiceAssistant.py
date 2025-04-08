@@ -12,6 +12,8 @@ def sptext():
         audio = recognizer.listen(source)
         
         try:
-            
+            print("recognizing..")
+            data = recognizer.recognize_google(audio)
+            print(data)
         except Execution as e:
             raise e
